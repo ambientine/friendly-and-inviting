@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+body {
+	background: url(bg.jpeg) no-repeat center fixed;
+	background-size: cover;
+}
+
+.container {
+	background-color: rgba(165,95,60,0.5);
+	width: 80%;
+	margin: 50px auto;
+	position: relative;
+}
+
+.topNav{
+	position: absolute;
+	top: -38px;
+}
+
+.topNav ul > li {
+	list-style-type: none;
+	float: left;
+	background-color: rgba(57,21,21,0.7);
+	padding: 8px 15px;
+}
+
+.topNav a[class="home"]{
+	color: white; 
+}
+
+.topNav ul > li > a {
+	color: #D4C3C3;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: 'Oswald';
+}
+
+.topNav a:hover {
+	color: white;
+}
+
+header{
+	clear: both;
+	background-color: rgba(60,0,0,0.4);
+	padding-bottom: 10px;
+}
+
+header h1, h2{
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+	clear: both;
+	font-family: 'Dancing Script', cursive;
+	font-size: 120px;
+}
+
+h1 ~ h2{
+	font-family: 'Homemade Apple', cursive;
+	font-size: 30px;
+}
+
+.bottomNav ul{
+	background-color: rgba(57,21,21,0.6);
+	border-bottom: 2px solid #FFE9E9;
+}
+
+.bottomNav ul > li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 8px 15px;
+}
+
+.bottomNav a:hover{
+	/*background-color: rgba(255,140,140,0.4);*/
+	color: black;
+	text-rendering: 	
+}
+
+.bottomNav ul > li > a {
+	color: #D4C3C3;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: 'Oswald';
+}
+
+figure{
+	clear: both;
+	margin: 15px;
+	align-content: center;
+	text-align: center;
+	background-color: rgba(57,21,21,0.2);
+}
+
+img[alt="travel"]{
+	width: 100%;
+	height: 500px;
+}
+
+main{
+	width: 60%;
+	margin: 20px;
+}
+
+img[alt="nature"], 
+[alt="beach"],
+[alt="landmark"],
+[alt="city"] {
+	margin-top: 10px;
+	width: 40%;
+	float: left;
+	margin-right: 15px;
+	border: 8px solid rgba(255,184,140,0.7);
+}
+
+.artCon {	
+	background-color: rgba(60,31,0,0.3);
+	padding: 10px;
+	min-height: 240px;
+	margin-bottom: 10px;
+	border: 1px solid rgba(60,31,0,0.5);
+}
+
+.artCon h3{
+	color: white;
+	font-size: 20px;
+	font-family: 'Oswald';
+}
+
+.artCon p{
+	margin-top: 10px;
+	color: white;
+}
+
+.btn { 
+	clear: both;
+	/*float: right;*/
+	margin-top: 10px;
+	padding: 5px;
+}
+
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.backToTop {
+	text-align: center;
+}
+
+.backToTop p > a {
+	text-decoration: none;
+	color: orange;
+}
+
+.backToTop a:hover{
+	color: white;
+}
+
+footer{
+	text-align: center;
+	padding: 10px;
+	background-color: rgba(60,31,0,0.3);
+	font-size: 15px;
+}
