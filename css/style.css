@@ -71,19 +71,19 @@ h1 ~ h2{
 	border-bottom: 2px solid #FFE9E9;
 }
 
-.bottomNav ul > li {
+.bottomNav ul > a > li {
 	list-style-type: none;
 	display: inline-block;
 	padding: 8px 15px;
 }
 
 .bottomNav a:hover{
-	/*background-color: rgba(255,140,140,0.4);*/
-	color: black;
-	text-rendering: 	
+	background-color: rgba(255,140,140,0.6);
+	color: black;	
+	padding: 8px 0px;
 }
 
-.bottomNav ul > li > a {
+.bottomNav ul > a{
 	color: #D4C3C3;
 	text-decoration: none;
 	font-size: 15px;
@@ -106,6 +106,7 @@ img[alt="travel"]{
 main{
 	width: 60%;
 	margin: 20px;
+	float: left;
 }
 
 img[alt="nature"], 
@@ -122,15 +123,18 @@ img[alt="nature"],
 .artCon {	
 	background-color: rgba(60,31,0,0.3);
 	padding: 10px;
-	min-height: 240px;
+	min-height: 300px;
 	margin-bottom: 10px;
 	border: 1px solid rgba(60,31,0,0.5);
 }
 
-.artCon h3{
+h3{
 	color: white;
 	font-size: 20px;
 	font-family: 'Oswald';
+}
+h3:hover{
+	color: #EAE0CC;
 }
 
 .artCon p{
@@ -140,9 +144,19 @@ img[alt="nature"],
 
 .btn { 
 	clear: both;
-	/*float: right;*/
+	/*display: inline-block;*/
+	float: right;
 	margin-top: 10px;
 	padding: 5px;
+}
+
+button{
+	background-color: #D7BD86;
+	border: 1px solid #D7BD86;
+}
+
+button:hover{
+	color: white;
 }
 
 .clear:after{
@@ -155,18 +169,73 @@ img[alt="nature"],
 	text-align: center;
 }
 
+
 .backToTop p > a {
 	text-decoration: none;
 	color: orange;
+	font-family:'PT Sans', Arial, Helvetica, Sans-serif;;
 }
 
 .backToTop a:hover{
 	color: white;
 }
 
+.secCon{
+	clear: both;
+	border-top: 3px solid rgba(57,21,21,0.7);
+	/*display: inline;*/
+}
+
+.secOne, 
+.secTwo, 
+.secThree{
+	width: 30%;
+	float: left;
+	margin: 15px 16px;
+}
+
+.secOne h3,
+.secTwo h3,
+.secThree h3,
+.socialPro h3{
+	border-bottom: 2px solid #E1B88C; 
+	margin-bottom: 10px;
+}
+
+p{
+	font-family: 'Ubuntu';
+	font-size: 14px;
+	color: white;
+}
+
+.secCon ul > li{
+	list-style-type: none;
+}
+
+.secCon ul > li > a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Ubuntu';
+	line-height: 40px;
+
+}
+
+.secCon a:hover{
+	color: #E9CB69;
+}
+
+aside{
+	width: 35%;
+	float: right;
+	margin: 20px auto;
+}
+
 footer{
+	clear: both;
 	text-align: center;
 	padding: 10px;
 	background-color: rgba(60,31,0,0.3);
 	font-size: 15px;
 }
+
+
